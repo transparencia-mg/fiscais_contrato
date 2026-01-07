@@ -2134,23 +2134,23 @@
                         const data = results.data.map(row => {
                             // Normalizar nomes de colunas (caso haja variações)
                             const contrato = {
-                                'Número do Processo Formatado': row['Número do Processo Formatado'] || row['numero_processo'] || '',
-                                'Número do contrato': row['Número do contrato'] || row['numero_contrato'] || row['contrato'] || '',
-                                'Situação do contrato': row['Situação do contrato'] || row['situacao'] || row['status'] || '',
-                                'Tipo do Contrato': row['Tipo do Contrato'] || row['tipo'] || '',
-                                'Data de Publicação': row['Data de Publicação'] || row['data_publicacao'] || '',
-                                'Data Início de Vigência': row['Data Início de Vigência'] || row['data_inicio'] || '',
-                                'Data Fim de Vigência': row['Data Fim de Vigência'] || row['data_fim'] || '',
-                                'Órgãos Participantes': row['Órgãos Participantes'] || row['orgao'] || row['orgaos'] || '',
+                                'Número do Processo Formatado': row['numero_do_processo_formatado'] || row['numero_processo'] || '',
+                                'Número do contrato': row['numero_do_contrato'] || row['numero_contrato'] || row['contrato'] || '',
+                                'Situação do contrato': row['situacao_do_contrato'] || row['situacao'] || row['status'] || '',
+                                'Tipo do Contrato': row['tipo_do_contrato'] || row['tipo'] || '',
+                                'Data de Publicação': row['data_de_publicacao'] || row['data_publicacao'] || '',
+                                'Data Início de Vigência': row['data_inicio_de_vigencia'] || row['data_inicio'] || '',
+                                'Data Fim de Vigência': row['data_fim_de_vigencia'] || row['data_fim'] || '',
+                                'Órgãos Participantes': row['orgaos_participantes'] || row['orgao'] || row['orgaos'] || '',
                                 'CNPJ/CPF': row['CNPJ/CPF'] || row['cnpj_cpf'] || '',
-                                'Nome Fornecedor': row['Nome Fornecedor'] || row['fornecedor'] || '',
-                                'Unidade Gestora do Contrato': row['Unidade Gestora do Contrato'] || row['unidade_gestora'] || '',
-                                'Gestores do Contrato (Portal de Compras)': row['Gestores do Contrato (Portal de Compras)'] || row['gestores'] || '',
-                                'Fiscais do Contrato': row['Fiscais do Contrato'] || row['fiscais'] || '',
+                                'Nome Fornecedor': row['nome_fornecedor'] || row['fornecedor'] || '',
+                                'Unidade Gestora do Contrato': row['unidade_gestora_do_contrato'] || row['unidade_gestora'] || '',
+                                'Gestores do Contrato (Portal de Compras)': row['gestores_do_contrato_portal_de_compras)'] || row['gestores'] || '',
+                                'Fiscais do Contrato': row['fiscais_do_contrato'] || row['fiscais'] || '',
                                 'Objeto': row['Objeto'] || row['objeto'] || '',
-                                'Valor inicial': row['Valor inicial'] || row['valor_inicial'] || '0',
-                                'Valor atual': row['Valor atual'] || row['valor_atual'] || row['valor'] || '0',
-                                'Link Arquivo do Contrato': row['Link Arquivo do Contrato'] || row['link'] || ''
+                                'Valor inicial': row['valor_inicial'] || row['valor_inicial'] || '0',
+                                'Valor atual': row['valor_atual'] || row['valor_atual'] || row['valor'] || '0',
+                                'Link Arquivo do Contrato': row['link_arquivo_do_contrato'] || row['link'] || ''
                             };
 
                             // Extrair ano da data de publicação ou início de vigência
