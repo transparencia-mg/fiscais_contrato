@@ -2,7 +2,7 @@ name: fiscais_contrato
 owner_org: secretaria-de-estado-de-planejamento-e-gestao-seplag
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: Conjunto de dados contendo informações cadastrais e funcionais dos fiscais de contratos administrativos vinculados aos órgãos e entidades do Governo do Estado de Minas Gerais.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -50,8 +50,8 @@ resources:
         - name: link_arquivo_do_contrato
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
+    title: Fiscais de Contratos 2022
+  - description: Conjunto de dados contendo informações cadastrais e funcionais dos fiscais de contratos administrativos vinculados aos órgãos e entidades do Governo do Estado de Minas Gerais
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -99,8 +99,8 @@ resources:
         - name: link_arquivo_do_contrato
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
+    title: Fiscais de Contratos 2023
+  - description: Conjunto de dados contendo informações cadastrais e funcionais dos fiscais de contratos administrativos vinculados aos órgãos e entidades do Governo do Estado de Minas Gerais
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -148,8 +148,8 @@ resources:
         - name: link_arquivo_do_contrato
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
+    title: Fiscais de Contrato 2024
+  - description: Conjunto de dados contendo informações cadastrais e funcionais dos fiscais de contratos administrativos vinculados aos órgãos e entidades do Governo do Estado de Minas Gerais
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -195,5 +195,5 @@ resources:
         - name: link_arquivo_do_contrato
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Fiscais de Contrato 2025
 title: Fiscais_contrato
